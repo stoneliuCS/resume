@@ -3,7 +3,6 @@ all:
 
 clean:
 	rm -f StoneLiu_Resume.log 
-	rm -f StoneLiu_Resume.pdf
 	rm -f StoneLiu_Resume.aux
 	rm -f StoneLiu_Resume.fdb_latexmk
 	rm -f StoneLiu_Resume.fls
