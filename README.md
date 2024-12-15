@@ -3,7 +3,7 @@
 make 
 ```
 
-# Cleaning the junk output
+# Cleaning and maintanence
 ```bash
 make clean
 ```
