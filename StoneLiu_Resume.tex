@@ -1,6 +1,12 @@
-\documentclass[letterpaper,11pt]{article}
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
 
-\usepackage{fontawesome5}
+\documentclass[letterpaper,10.95pt]{article}
+
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
@@ -13,10 +19,19 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \input{glyphtounicode}
-\usepackage[normalem]{ulem}
+\setlength{\footskip}{4.08003pt}
 
-% Custom font
-\usepackage{mathptmx}
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -28,45 +43,186 @@
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
+\addtolength{\topmargin}{-.75in}
 \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
 
 \raggedbottom
 \raggedright
-\setlength{\footskip}{30pt}
+\setlength{\tabcolsep}{0in}
 
 % Sections formatting
 \titleformat{\section}{
   \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
 
-%-------------------------%
+%-------------------------
 % Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 \begin{document}
-\include{custom-commands}
 
-%-------------------------------------------%
-%%%%%%  RESUME STARTS HERE  %%%%%
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
 
-%----------HEADING----------%
-\input{src/heading}
+\begin{center}
+	\textbf{\Huge \scshape Stone Liu} \\ \vspace{3pt}
+	\small 617-792-6757 $|$ \href{mailto:qwantumstone@gmail.com}{qwantumstone\{at\}gmail\{dot\}com} $|$
+	\href{https://linkedin.com/in/stone-liu}{linkedin/stone-liu} $|$
+	\href{https://stoneliucs.github.io/}{github.com/stoneliucs}
+\end{center}
 
-%-----------EDUCATION-----------%
-\input{src/education}
 
-%-----------SKILLS-----------%
-\input{src/skills}
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Northeastern University}{Boston, Massachusetts}
+{Candidate for Honors Bachelor of Science in Computer Science and Mathematics}{Expected May 2026}
+\resumeItemListStart
+\resumeItem{\textbf{GPA:} 3.79 / 4.00 }
+\resumeItem{\textbf{Awards:} Northeastern Honors Program, Deans List }
+\resumeItem{\textbf{Relevant Courses:} Algorithms and Data Structures, Object Oriented Design, Software Development, Computer Systems}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
 
-%-----------EXPERIENCE-----------%
-\input{src/experience}
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+	      \textbf{Languages}{: TypeScript/JavaScript, Python, Java, C, C++, SQL, Bash } \\
+        \textbf{Technologies}{: Nvim/Vim, Docker, Git, AWS S3 \& Lambda, Nix } \\
+        \textbf{Frameworks/Libraries}{: Pyspark, Pandas, Polars, React.js, React-Native, Next.js, Vue.js, Nuxt.js}}}
+\end{itemize}
 
-%-----------PROJECTS-----------%
-\input{src/projects}
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
 
-%-------------------------------------------%
+\resumeSubheading
+{Software Engineer Co-Op}{January 2025 -- Present}
+{Morse Corporation}{Cambridge, MA}
+\resumeItemListStart
+\resumeItem { Built core infrastructure for data analysis pipelines aimed at algorithmic testing and evaluation of object detection models. }
+\resumeItem { Designed a scalable test harness using \textbf{Apache Spark}, supporting parallel data processing on \textbf{100 million+ metrics} enabling team members critical insights on model performance.}
+\resumeItem { Deployed model runners and inference processing pipelines using \textbf{OpenCV}, automating metric calculations for multiple vendors and reduced metric turnaround time by over \textbf{50\%}. }
+\resumeItemListEnd
+
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+\resumeSubheading
+{Technical Lead}{September 2024 -- April 2025}
+{Generate Product Development Studio}{Boston, MA}
+\resumeItemListStart
+\resumeItem { Led a team of 7 software engineers, designing containerized \textbf{RESTful} server applications using the \emph{OpenAPI} specification.}
+\resumeItem{
+	Designed a distributed web server that supported multimedia compressing/serving through \textbf{AWS S3} and scheduled push notifications through \textbf{AWS Lambda}.
+}
+\resumeItem { Enabled real-time notification services through \textbf{Supabase} database subscribers and designed type-safe database transactions using \textbf{Drizzle-ORM}.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Lead Lab TA -- Fundamentals of Computer Science I}{September 2024 -- December 2024}
+{Khoury College}{Boston, MA}
+\resumeItemListStart
+\resumeItem { Helped \textbf{600+} introductory computer-science students by teaching systematic program design with topics including structural recursion and accumulators using Racket ISL. }
+\resumeItem { Held weekly lab sessions for \textbf{30+} students, reviewing course fundamentals, design concepts/paradigms, and exam reviews. }
+\resumeItemListEnd
+
+\resumeSubheading
+{Software Engineer Co-Op}{January 2024 -- August 2024}
+{Spill Center}{Hudson, MA}
+\resumeItemListStart
+\resumeItem { Created a centralized web application for cargo tank owners and operators using \textbf{Nuxt.js}, enabling customers to view detailed reports on over \textbf{800,000+} cargo tanks. }
+\resumeItem { Monitored \textbf{10,000+} incidents and alert groups by creating a geospatial alert service through \textbf{PostGIS} spatial queries. }
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{Dearly} $|$ \emph{TypeScript, React-Native, Docker, AWS S3/Lambda, PostgreSQL}}    {}
+\resumeItemListStart
+\resumeItem{Dearly is a private family-sharing app bridging generational gaps and makes staying connected easier and more meaningful.}
+\resumeItem{Deployed CI/CD pipelines using \textbf{Github Actions}, automating over \textbf{500+} integration tests using \textbf{Jest} and containerized deployments through \textbf{Docker}. }
+\resumeItem{Cached API requests using \textbf{TanStack-Query} and compressed image/audio content through \textbf{Sharp}, leading to an \textbf{80\%} decrease in API requests and \textbf{50\%} faster loading times.}
+\resumeItemListEnd
+\resumeProjectHeading
+{\textbf{Fluid-OAS} $|$ \emph{TypeScript}}    {}
+\resumeItemListStart
+\resumeItem { \href{https://github.com/stoneliuCS/fluid-oas}{\emph{Fluid-OAS}} is a declarative \emph{domain specific language} expressing type-safe HTTP APIs through the OpenAPI specification.  }
+\resumeItem { Created a fluent, object-oriented API allowing developers to repeatedly chain together methods, enabling more maintainable API specifications. }
+\resumeItem { Maintained backwards compatability among all OpenAPIv3 specifications through interface segregation, supporting \textbf{1500+} developers in building type-safe \textbf{RESTful} APIs. }
+
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Bazaar} $|$ \emph{Java, Apache Maven, Bash, Google Gson}}    {}
+\resumeItemListStart
+\resumeItem { Created a distributed trading card game using functional-style Java, where player mechanisms connect over \textbf{TCP/IP}.}
+\resumeItem { Created a robust concurrent server using Java futures, protecting itself from DOS attacks and malformed JSON responses from clients.}
+\resumeItem { Developed a greedy, AI player algorithm that determined the most optimal set of moves from over \textbf{1,000,000+} sequences using DFS and greedy optimizations. }
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+%-------------------------------------------
 \end{document}
