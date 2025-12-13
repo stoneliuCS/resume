@@ -32,9 +32,9 @@
 
 #resume_heading[Experience]
 #exp_item(
-  role: "Incoming Member of Technical Staff",
+  role: "Member of Technical Staff",
   name: "Agency - Sequoia Capital, Menlo Ventures, Databricks Ventures",
-  location: "New York City",
+  location: "New York City, NY",
   date: "January 2026 - Present",
 )
 
@@ -65,6 +65,12 @@
 
 #resume_heading("Projects")
 #project_item(
+  name: "Technical Challenge Oracle",
+  skills: "Go, TypeScript, Docker, PostgreSQL, Templ",
+  date: "June 2025 - July 2025",
+  [Designed a containerized challenge server to auto‑grade technical challenges for 200+ prospective engineers.],
+)
+#project_item(
   name: "Dearly",
   skills: "TypeScript, React-Native, Docker, AWS S3/Lambda, PostgreSQL",
   date: "December 2024 - April 2025",
@@ -74,4 +80,3 @@
   [Cached API requests using TanStack-Query and compressed image/audio content through Sharp.js, leading to an
     80% decrease in API calls and 50% faster loading times.],
 )
-
