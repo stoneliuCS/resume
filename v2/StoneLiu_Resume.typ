@@ -15,7 +15,7 @@
 #resume_heading[Education]
 #edu_item(
   name: "Northeastern University",
-  degree: "Honors Bachelor of Science in Computer Science and Mathematics (GPA: 3.8/4.0)",
+  degree: "Honors Bachelor of Science in Computer Science and Mathematics (GPA: 3.834/4.0)",
   location: "Boston, MA",
   date: "Expected May 2026",
 )
