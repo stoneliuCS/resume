@@ -15,7 +15,7 @@
 #resume_heading[Education]
 #edu_item(
   name: "Northeastern University",
-  degree: "Honors Bachelor of Science in Computer Science and Mathematics (GPA: 3.834/4.0)",
+  degree: "Honors Bachelor of Science in Computer Science and Mathematics (GPA: 3.83/4.0)",
   location: "Boston, MA",
   date: "Expected May 2026",
 )
@@ -27,7 +27,7 @@
 )
 #skill_item(
   category: "Technologies",
-  skills: "Vim, Docker, Git, React.js, AWS (S3, Lambda, EC2, IAM)",
+  skills: "Neovim/Vim, Docker, Git, React.js, AWS (S3, Lambda, EC2, IAM)",
 )
 
 #resume_heading[Experience]
@@ -65,10 +65,21 @@
 
 #resume_heading("Projects")
 #project_item(
-  name: "Technical Challenge Oracle",
+  name: "Generate Technical Challenge Oracle",
   skills: "Go, TypeScript, Docker, PostgreSQL, Templ",
   date: "June 2025 - July 2025",
-  [Designed a containerized challenge server to auto‑grade technical challenges for 200+ prospective engineers.],
+  [
+    Delivered a challenge oracle using *Go* and *PostgreSQL* handling over *200+* member registrations/lookups, and over
+    *3800+* challenge generations/submissions.
+  ],
+  [
+    Engineered a deterministic challenge generator seeded by user IDs, with scoring/validation logic and
+    property-based tests allowing accurate and efficient autograding of member submissions.
+  ],
+  [
+    Set up production and development workflows: Using *OPENAPI* codegen for builds/tests, container-based integration
+    test harness, and *Slack* webhook middleware for operational visibility.
+  ],
 )
 #project_item(
   name: "Dearly",
