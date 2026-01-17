@@ -36,6 +36,8 @@
   name: "Agency - Sequoia Capital, Menlo Ventures, Databricks Ventures",
   location: "New York City, NY",
   date: "January 2026 - Present",
+  [Built durable *Temporal* workflows, scheduling asynchronous jobs and custom trigger events integrating seamlessly with
+    *Slack* and *Outlook* for over *+100* customers.],
 )
 
 #exp_item(
