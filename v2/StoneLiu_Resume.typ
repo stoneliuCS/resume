@@ -33,7 +33,7 @@
 #resume_heading[Experience]
 #exp_item(
   role: "Member of Technical Staff",
-  name: "Agency - Sequoia Capital, Menlo Ventures, Databricks Ventures",
+  name: "Agency - Series A: Sequoia Capital, Menlo Ventures, Databricks Ventures",
   location: "New York City, NY",
   date: "January 2026 - Present",
   [Built durable *Temporal* workflows, scheduling asynchronous jobs and custom trigger events integrating seamlessly with
