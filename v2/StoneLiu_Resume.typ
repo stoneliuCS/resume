@@ -38,6 +38,10 @@
   date: "January 2026 - Present",
   [Built durable *Temporal* workflows, scheduling asynchronous jobs and custom trigger events integrating seamlessly with
     *Slack* and *Outlook* for over *+100* customers.],
+  [Implemented and deployed streaming agent previews using *Redis* and *React* server sent events, enabling customers to observe realtime
+    overviews of their notification jobs/workflows.],
+  [Built custom *React* hooks using *tRPC*, *Zod* and *OpenAPI*, enabling type-safe *REST-API* calls and enabled efficient server
+    requests.],
 )
 
 #exp_item(
@@ -45,11 +49,11 @@
   name: "Morse Corporation",
   location: "Cambridge MA",
   date: "January 2025 - June 2025",
-  [Implemented a F1-score based tracking metric for object detection models in C++, giving stakeholders faster
+  [Implemented a F1-score based tracking metric for object detection models in *C++*, giving stakeholders faster
     insights into model performance.],
-  [Designed a scalable test harness with Apache Spark, supporting parallel data processing on *100 million+* metrics,
+  [Designed a scalable test harness with *Apache Spark*, supporting parallel data processing on *100 million+* metrics,
     increasing pipeline reliability.],
-  [Deployed containerized model runners and inference processing pipelines using OpenCV and Polars, accelerating
+  [Deployed containerized model runners and inference processing pipelines using *OpenCV* and *Polars*, accelerating
     metric turnaround time by over *50%*],
 )
 #exp_item(
@@ -57,11 +61,11 @@
   name: "Spill Center",
   location: "Boston MA",
   date: "January 2024 - August 2024",
-  [Designed a web application for cargo tank owners using Nuxt.js and MongoDB, enabling customers to view
+  [Designed a web application for cargo tank owners using *Nuxt.js* and *MongoDB*, enabling customers to view
     detailed reports on *800,000+* cargo tanks.],
-  [Created reusuable dashboard components written in Vue.js, allowing *3000+* contractors access to detailed spill
+  [Created reusuable dashboard components written in *Vue.js*, allowing *3000+* contractors access to detailed spill
     incident reports.],
-  [Monitored *10,000+* incidents within alert groups by implementing a geospatial alert service through PostGIS
+  [Monitored *10,000+* incidents within alert groups by implementing a geospatial alert service through *PostGIS*
     spatial queries.],
 )
 
