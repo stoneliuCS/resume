@@ -23,7 +23,7 @@
 #resume_heading("Technical Skills")
 #skill_item(
   category: "Languages",
-  skills: "TypeScript/JavaScript, Python, Go, Java, Typst",
+  skills: "TypeScript/JavaScript, Python, Go, Java, C",
 )
 #skill_item(
   category: "Technologies",
@@ -36,12 +36,11 @@
   name: "Agency - Series A: Sequoia Capital, Menlo Ventures, Databricks Ventures",
   location: "New York City, NY",
   date: "January 2026 - Present",
-  [Built durable *Temporal* workflows, scheduling asynchronous jobs and custom trigger events integrating seamlessly with
-    *Slack* and *Outlook* for over *+100* customers.],
-  [Implemented and deployed streaming agent previews using *Redis* and *React* server sent events, enabling customers to observe realtime
-    overviews of their notification jobs/workflows.],
-  [Built custom *React* hooks using *tRPC*, *Zod* and *OpenAPI*, enabling type-safe *REST-API* calls and enabled efficient server
-    requests.],
+  [Built durable *Temporal* workflows with async scheduling and custom trigger events integrating with *Slack* and *Outlook*
+    for *100+* customers.],
+  [Deployed streaming *Anthrophic* agent previews via *Redis* and *React SSE* to show realtime notification
+    overviews for customers.],
+  [Created custom *React* hooks with *tRPC*, *Zod*, and *OpenAPI* for type-safe *REST* calls and efficient server requests.],
 )
 
 #exp_item(
