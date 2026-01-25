@@ -23,49 +23,50 @@
 #resume_heading("Technical Skills")
 #skill_item(
   category: "Languages",
-  skills: "TypeScript/JavaScript, Python, Go, Java, C",
+  skills: "TypeScript/JavaScript, Python, Go, Java, C, C++",
 )
 #skill_item(
   category: "Technologies",
-  skills: "Neovim/Vim, Docker, Git, React.js, AWS (S3, Lambda, EC2, IAM)",
+  skills: "Vim, Git, Docker, React, PostgreSQL, MongoDB, PostGIS, Temporal, Redis, AWS (S3, Lambda, EC2)",
 )
 
 #resume_heading[Experience]
 #exp_item(
   role: "Member of Technical Staff",
-  name: "Agency - Series A: Sequoia Capital, Menlo Ventures, Databricks Ventures",
+  name: "Agency - Series A",
   location: "New York City, NY",
-  date: "January 2026 - Present",
-  [Built durable *Temporal* workflows with async scheduling and custom trigger events integrating with *Slack* and *Outlook*
-    for *100+* customers.],
-  [Deployed streaming *Anthrophic* agent previews via *Redis* and *React SSE* to show realtime notification
-    overviews for customers.],
-  [Created custom *React* hooks with *tRPC*, *Zod*, and *OpenAPI* for type-safe *REST* calls and efficient server requests.],
+  date: "January 2026 - Current",
+  [Built Temporal workflows for async scheduling and event triggers, integrating Slack and Outlook to automate
+    notifications for *50+* customers.],
+  [Deployed streaming agent job previews using Redis + React Server-Sent Events (SSE), providing customers live
+    notification generation and status overviews.],
+  [Created reusable React hooks with tRPC, Zod, and OpenAPI codegen to standardize client APIs and simplify
+    data fetching.],
 )
 
 #exp_item(
   role: "Software Engineer Co-Op",
   name: "Morse Corporation",
-  location: "Cambridge MA",
+  location: "Cambridge, MA",
   date: "January 2025 - June 2025",
-  [Implemented a F1-score based tracking metric for object detection models in *C++*, giving stakeholders faster
-    insights into model performance.],
-  [Designed a scalable test harness with *Apache Spark*, supporting parallel data processing on *100 million+* metrics,
-    increasing pipeline reliability.],
-  [Deployed containerized model runners and inference processing pipelines using *OpenCV* and *Polars*, accelerating
-    metric turnaround time by over *50%*],
+  [Implemented an F1-score tracking metric for the object detection evaluation pipeline in C++, improving stakeholder
+    visibility into model regressions.],
+  [Built a scalable test harness with Apache Spark to process *100M+* evaluation records in parallel, increasing pipeline
+    reliability.],
+  [Deployed containerized model runners and inference pipelines with OpenCV + Polars, reducing metric turnaround time
+    for model evaluations.],
 )
 #exp_item(
   role: "Software Engineer Co-Op",
   name: "Spill Center",
-  location: "Boston MA",
+  location: "Boston, MA",
   date: "January 2024 - August 2024",
-  [Designed a web application for cargo tank owners using *Nuxt.js* and *MongoDB*, enabling customers to view
-    detailed reports on *800,000+* cargo tanks.],
-  [Created reusuable dashboard components written in *Vue.js*, allowing *3000+* contractors access to detailed spill
+  [Designed a web application using Nuxt.js and MongoDB, enabling customers to view
+    detailed reports across *100,000+* cargo tanks.],
+  [Implemented a geospatial alert service using PostGIS spatial queries, enabling triage of *1,000+* incidents within
+    alert groups.],
+  [Created reusable Vue.js dashboard components allowing *100+* contractors access to detailed spill
     incident reports.],
-  [Monitored *10,000+* incidents within alert groups by implementing a geospatial alert service through *PostGIS*
-    spatial queries.],
 )
 
 #resume_heading("Projects")
@@ -75,7 +76,7 @@
   date: "November 2025 - December 2025",
   [
     Delivered a challenge server using *Go* and *PostgreSQL* handling over *200+* member registrations, and
-    *3800+* challenge generations/submissions.
+    *3,800+* challenge generations/submissions.
   ],
   [
     Engineered a deterministic test case generator seeded by user IDs, with scoring/validation logic and
@@ -83,16 +84,17 @@
   ],
   [
     Set up production and development pipelines: Using OpenAPI codegen for API type-safety, containerized database
-    for integration testing, and *Slack* webhook middleware for operational visibility.
+    for integration testing, and Slack webhook middleware for operational visibility.
   ],
 )
 #project_item(
   name: "Dearly",
-  skills: "TypeScript, React-Native, Docker, AWS S3/Lambda, PostgreSQL",
+  skills: "TypeScript, React Native, Docker, AWS S3/Lambda, PostgreSQL",
   date: "December 2024 - April 2025",
-  [Dearly is a private family-sharing app bridging generational gaps and makes staying connected easier and more meaningful.],
-  [Deployed CI/CD pipelines through GitHub Actions, automating over 500+ integration tests written with Jest and
+  [Built a private family-sharing mobile app with media upload + feed experiences, designed to keep families connected
+    across generations.],
+  [Deployed CI/CD pipelines through GitHub Actions, automating over *500+* integration tests written with Jest and
     containerized deployments using Docker.],
   [Cached API requests using TanStack-Query and compressed image/audio content through Sharp.js, leading to an
-    80% decrease in API calls and 50% faster loading times.],
+    *80%* decrease in API calls and *50%* faster loading times.],
 )

@@ -10,7 +10,7 @@
   )
 
   set text(
-    size: 10.85pt,
+    size: 11pt,
     font: "Calibri",
   )
 
