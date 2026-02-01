@@ -26,8 +26,16 @@
   skills: "TypeScript/JavaScript, Python, Go, Java, C, C++",
 )
 #skill_item(
-  category: "Technologies",
-  skills: "Vim, Git, Docker, React, PostgreSQL, MongoDB, PostGIS, Temporal, Redis, AWS (S3, Lambda, EC2)",
+  category: "Frameworks",
+  skills: "React.js, React Native, Next.js, Nuxt.js, Vue.js, Temporal",
+)
+#skill_item(
+  category: "Data/ML",
+  skills: "PyTorch, NumPy, Pandas, Apache Spark, Polars, OpenCV",
+)
+#skill_item(
+  category: "Databases/Infra",
+  skills: "PostgreSQL, MongoDB, PostGIS, Redis, AWS (S3, Lambda, EC2), Kubernetes, Supabase",
 )
 
 #resume_heading[Experience]
@@ -35,13 +43,13 @@
   role: "Member of Technical Staff",
   name: "Agency (Series A)",
   location: "New York City, NY",
-  date: "January 2026 - Current",
-  [Automated async Temporal workflows with custom job event triggers, integrating Slack and Outlook to automate
-    notifications for *30+* customers.],
-  [Deployed streaming agent job previews using Redis + React Server-Sent Events (SSE), providing customers live
-    notification generation and status overviews.],
-  [Created reusable React hooks with tRPC, Zod, and OpenAPI codegen to standardize client APIs and simplify
-    data fetching.],
+  date: "January 2026 - Present",
+  [Enabled *30+* customers to create reliable event-driven job workflows with Temporal and integrations across
+    Gmail, Outlook, and Slack.],
+  [Provided customers with real-time streaming notification previews created using Gemini and Claude SDKs,
+    Redis pub/sub, and React Server-Sent Events (SSE).],
+  [Allowed customers to fire scheduled job notifications with trigger events, enabling context-rich overviews of
+    potential opportunities, meeting summaries, and account health changes.],
 )
 
 #exp_item(
@@ -49,11 +57,11 @@
   name: "Morse Corporation",
   location: "Cambridge, MA",
   date: "January 2025 - June 2025",
-  [Implemented an F1-score tracking metric for the object detection evaluation pipeline in C++, improving stakeholder
+  [Implemented an F1-score tracking metric for the object-detection evaluation pipeline in C++, improving stakeholder
     visibility into model regressions.],
-  [Built a scalable test harness with Apache Spark to process *100M+* evaluation records in parallel, increasing pipeline
+  [Built a scalable test harness with PySpark to process *100M+* model evaluation records in parallel, increasing pipeline
     reliability.],
-  [Deployed containerized model runners and inference pipelines with OpenCV + Polars, reducing metric turnaround time
+  [Deployed containerized model runners and inference pipelines with OpenCV and Polars, reducing metric turnaround time
     for model evaluations.],
 )
 #exp_item(
@@ -61,11 +69,11 @@
   name: "Spill Center",
   location: "Boston, MA",
   date: "January 2024 - August 2024",
-  [Designed a web application using Nuxt.js and MongoDB, enabling customers to view
-    detailed reports across *100,000+* cargo tanks.],
+  [Built a web application using Nuxt.js and MongoDB, enabling customers to view
+    detailed reports for *100,000+* cargo tanks.],
   [Implemented a geospatial alert service using PostGIS spatial queries, enabling triage of *1,000+* incidents within
     alert groups.],
-  [Created reusable Vue.js dashboard components allowing *100+* contractors access to detailed spill
+  [Created reusable Vue dashboard components allowing *100+* contractors to access detailed spill
     incident reports.],
 )
 
@@ -75,16 +83,16 @@
   skills: "Go, TypeScript, Docker, PostgreSQL",
   date: "November 2025 - December 2025",
   [
-    Delivered a challenge server using *Go* and *PostgreSQL* handling over *200+* member registrations, and
-    *3,800+* challenge generations/submissions.
+    Deployed a challenge server using *Go* and *PostgreSQL* handling over *200+* member registrations, and
+    *3,800+* challenge generations and submissions.
   ],
   [
-    Engineered a deterministic test case generator seeded by user IDs, with scoring/validation logic and
-    property-based testing, allowing accurate and efficient autograding of member submissions.
+    Created scalable autograding for graph problems using property-based testing and shortest-path scoring over large
+    generated test cases.
   ],
   [
-    Set up production and development pipelines: Using OpenAPI codegen for API type-safety, containerized database
-    for integration testing, and Slack webhook middleware for operational visibility.
+    Set up production and development pipelines with OpenAPI codegen for end-to-end type-safety, containerized
+    PostgreSQL for integration testing, and Slack-based runtime error alerting for operational visibility.
   ],
 )
 #project_item(
@@ -95,6 +103,6 @@
     across generations.],
   [Deployed CI/CD pipelines through GitHub Actions, automating over *500+* integration tests written with Jest and
     containerized deployments using Docker.],
-  [Cached API requests using TanStack-Query and compressed image/audio content through Sharp.js, leading to an
+  [Cached API requests using TanStack Query and compressed image/audio content through Sharp, leading to an
     *80%* decrease in API calls and *50%* faster loading times.],
 )
