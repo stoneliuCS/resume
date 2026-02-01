@@ -33,11 +33,11 @@
 #resume_heading[Experience]
 #exp_item(
   role: "Member of Technical Staff",
-  name: "Agency - Series A",
+  name: "Agency (Series A)",
   location: "New York City, NY",
   date: "January 2026 - Current",
-  [Built Temporal workflows for async scheduling and event triggers, integrating Slack and Outlook to automate
-    notifications for *50+* customers.],
+  [Automated async Temporal workflows with custom job event triggers, integrating Slack and Outlook to automate
+    notifications for *30+* customers.],
   [Deployed streaming agent job previews using Redis + React Server-Sent Events (SSE), providing customers live
     notification generation and status overviews.],
   [Created reusable React hooks with tRPC, Zod, and OpenAPI codegen to standardize client APIs and simplify
