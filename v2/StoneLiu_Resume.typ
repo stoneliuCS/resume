@@ -23,19 +23,19 @@
 #resume_heading("Technical Skills")
 #skill_item(
   category: "Languages",
-  skills: "TypeScript/JavaScript, Python, Go, Java, C, C++",
+  skills: "TypeScript/JavaScript, Python, Go, Java, C, SQL",
 )
 #skill_item(
-  category: "Frameworks",
-  skills: "React.js, React Native, Next.js, Nuxt.js, Vue.js, Temporal",
+  category: "Frameworks & Libraries",
+  skills: "React, React Native, Next.js, Nuxt.js, Vue.js, Temporal",
 )
 #skill_item(
-  category: "Data/ML",
-  skills: "PyTorch, NumPy, Pandas, Apache Spark, Polars, OpenCV",
+  category: "Databases",
+  skills: "PostgreSQL, Elasticsearch, MongoDB, Redis",
 )
 #skill_item(
-  category: "Databases/Infra",
-  skills: "PostgreSQL, MongoDB, PostGIS, Redis, AWS (S3, Lambda, EC2), Kubernetes, Supabase",
+  category: "Cloud & DevOps",
+  skills: "AWS (S3, Lambda, EC2), Docker, Kubernetes, Git, GitHub Actions, Supabase",
 )
 
 #resume_heading[Experience]
@@ -44,12 +44,20 @@
   name: "Agency (Series A)",
   location: "New York City, NY",
   date: "January 2026 - Present",
-  [Enabled *30+* customers to create reliable event-driven job workflows with Temporal and integrations across
-    Gmail, Outlook, and Slack.],
-  [Provided customers with real-time streaming notification previews created using Gemini and Claude SDKs,
-    Redis pub/sub, and React Server-Sent Events (SSE).],
-  [Allowed customers to fire scheduled job notifications with trigger events, enabling context-rich overviews of
-    potential opportunities, meeting summaries, and account health changes.],
+  [Built Temporal workflows powering event-driven job automation for *30+* customer workspaces, integrating Gmail/Outlook/Slack notifications.],
+  [Improved customer prompt iteration times by *50%* through deployments of real-time notification previews using Claude API/SDK, Redis Pub/Sub, and React SSE.],
+  [Deployed recurring context-rich pre-meeting notification jobs on *3000+* pages of meeting data across hundreds of weekly meetings using scheduled Temporal workflows.],
+)
+
+#exp_item(
+  role: "Technical Lead",
+  name: "Generate Product Development Studio",
+  location: "Boston, MA",
+  date: "June 2025 - Present",
+  [Designed and deployed a containerized autograding challenge server in Go and PostgreSQL used by *200+* candidates to complete technical challenges.],
+  [Built reusable GitHub Actions and DigitalOcean deployment pipelines used by *8* teams, standardizing CI/CD for *30+*
+    engineers.],
+  [Integrated AWS S3, Lambda, and EC2 with least-privilege IAM and Boto3 enabling secure org-wide artifact access and automation.],
 )
 
 #exp_item(
@@ -59,10 +67,11 @@
   date: "January 2025 - June 2025",
   [Implemented an F1-score tracking metric for the object-detection evaluation pipeline in C++, improving stakeholder
     visibility into model regressions.],
-  [Built a scalable test harness with PySpark to process *100M+* model evaluation records in parallel, increasing pipeline
-    reliability.],
-  [Deployed containerized model runners and inference pipelines with OpenCV and Polars, reducing metric turnaround time
-    for model evaluations.],
+  [Built a scalable test harness with PySpark to process over *100+* million model evaluation records in parallel,
+    increasing pipeline reliability.],
+  [Improved metric turnaround time by *25%* through streamlining deployments of containerized model runners and
+    inference pipelines with OpenCV and Polars,
+  ],
 )
 #exp_item(
   role: "Software Engineer Co-Op",
@@ -79,30 +88,26 @@
 
 #resume_heading("Projects")
 #project_item(
-  name: "Generate Technical Challenge Server",
-  skills: "Go, TypeScript, Docker, PostgreSQL",
-  date: "November 2025 - December 2025",
-  [
-    Deployed a challenge server using *Go* and *PostgreSQL* handling over *200+* member registrations, and
-    *3,800+* challenge generations and submissions.
-  ],
-  [
-    Created scalable autograding for graph problems using property-based testing and shortest-path scoring over large
-    generated test cases.
-  ],
-  [
-    Set up production and development pipelines with OpenAPI codegen for end-to-end type-safety, containerized
-    PostgreSQL for integration testing, and Slack-based runtime error alerting for operational visibility.
-  ],
-)
-#project_item(
   name: "Dearly",
   skills: "TypeScript, React Native, Docker, AWS S3/Lambda, PostgreSQL",
   date: "December 2024 - April 2025",
-  [Built a private family-sharing mobile app with media upload + feed experiences, designed to keep families connected
-    across generations.],
-  [Deployed CI/CD pipelines through GitHub Actions, automating over *500+* integration tests written with Jest and
-    containerized deployments using Docker.],
-  [Cached API requests using TanStack Query and compressed image/audio content through Sharp, leading to an
+  [Built a private family-sharing mobile app with media upload and shared home feed experiences,
+    designed to keep families connected across generations.],
+  [Cached API requests using TanStack Query and compressed image/audio content through Sharp, leading to a
     *80%* decrease in API calls and *50%* faster loading times.],
+  [Implemented CI/CD using GitHub Actions, automating *500+* integration tests written with Jest and
+    containerized deployments.],
+)
+#project_item(
+  name: "Bazaar",
+  skills: "Java, Apache Maven, Bash, Google Gson",
+  date: "September 2024 - December 2024",
+  [
+    Created a distributed trading card game using functional-style Java, where player mechanisms connect over TCP/IP
+    sockets.
+  ],
+  [
+    Developed a backtracking algorithm that efficiently searched through millions of candidates using DFS and data
+    accumulators.
+  ],
 )
