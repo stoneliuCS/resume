@@ -46,11 +46,11 @@
   date: "January 2026 - Present",
   [Built Temporal workflows powering event-driven job automation for *30+* customer workspaces, integrating Gmail/Outlook/Slack notifications.],
   [Improved customer prompt iteration times by *50%* through deployments of real-time notification previews using Claude API/SDK, Redis Pub/Sub, and React SSE.],
-  [Deployed recurring context-rich pre-meeting notification jobs on *3000+* pages of meeting data across hundreds of weekly meetings using scheduled Temporal workflows.],
+  [Deployed over *400+* recurring pre-meeting notification jobs across hundreds of weekly meetings using scheduled Temporal workflows.],
 )
 
 #exp_item(
-  role: "Technical Lead",
+  role: "Chief of Software",
   name: "Generate Product Development Studio",
   location: "Boston, MA",
   date: "June 2025 - Present",
