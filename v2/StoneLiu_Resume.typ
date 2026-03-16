@@ -49,7 +49,7 @@
   [Deployed *400+* recurring pre-meeting notification jobs across hundreds of weekly meetings using scheduled Temporal workflows.],
 )
 #exp_item(
-  role: "Technical Lead",
+  role: "Chief of Software",
   name: "Generate Product Development Studio",
   location: "Boston, MA",
   date: "June 2025 - Present",
