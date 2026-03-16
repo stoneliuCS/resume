@@ -43,7 +43,7 @@
   role: "Member of Technical Staff",
   name: "Agency (Series A)",
   location: "New York City, NY",
-  date: "January 2026 - Present",
+  date: "January 2026 - March 2026",
   [Built Temporal workflows powering event-driven job automation for *30+* customer workspaces, integrating Gmail/Outlook/Slack notifications.],
   [Improved customer prompt iteration times by *50%* through deployments of real-time notification previews using Claude API/SDK, Redis Pub/Sub, and React SSE.],
   [Deployed over *400+* recurring pre-meeting notification jobs across hundreds of weekly meetings using scheduled Temporal workflows.],
