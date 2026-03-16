@@ -48,18 +48,16 @@
   [Improved customer prompt iteration times by *50%* through deployments of real-time notification previews using Claude API/SDK, Redis Pub/Sub, and React SSE.],
   [Deployed over *400+* recurring pre-meeting notification jobs across hundreds of weekly meetings using scheduled Temporal workflows.],
 )
-
 #exp_item(
   role: "Chief of Software",
   name: "Generate Product Development Studio",
   location: "Boston, MA",
   date: "June 2025 - Present",
   [Designed and deployed a containerized autograding challenge server in Go and PostgreSQL used by *200+* candidates to complete technical challenges.],
-  [Built reusable GitHub Actions and DigitalOcean deployment pipelines used by *8* teams, standardizing CI/CD for *30+*
-    engineers.],
-  [Integrated AWS S3, Lambda, and EC2 with least-privilege IAM and Boto3 enabling secure org-wide artifact access and automation.],
+  [Implemented GitHub Action pipelines for deployment of React Native and containerized backend services used by *4* teams, standardizing CI/CD for *20* engineers.],
+  [Integrated AWS S3, Lambda, and EC2 with least-privilege IAM and Boto3 enabling secure access to org-wide cloud
+    resources.],
 )
-
 #exp_item(
   role: "Software Engineer Co-Op",
   name: "Morse Corporation",
