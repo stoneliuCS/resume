@@ -40,7 +40,7 @@
 
 #resume_heading[Experience]
 #exp_item(
-  role: "Member of Technical Staff",
+  role: "Member of Technical Staff Intern",
   name: "Agency (Series A)",
   location: "New York City, NY",
   date: "January 2026 - March 2026",
