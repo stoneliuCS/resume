@@ -35,7 +35,7 @@
 )
 #skill_item(
   category: "Cloud & DevOps",
-  skills: "AWS (S3, Lambda, EC2), Docker, Kubernetes, Git, GitHub Actions, Supabase",
+  skills: "AWS (S3, Lambda, EC2), Docker, Git, GitHub Actions, Supabase",
 )
 
 #resume_heading[Experience]
