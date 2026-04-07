@@ -1,5 +1,5 @@
 all:
-	latexmk -pvc -pdf StoneLiu_Resume.tex 
+	 cd v2/ && typst compile StoneLiu_Resume.typ
 
 clean:
 	rm -f StoneLiu_Resume.log 

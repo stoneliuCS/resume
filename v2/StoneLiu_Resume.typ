@@ -23,7 +23,7 @@
 #resume_heading("Technical Skills")
 #skill_item(
   category: "Languages",
-  skills: "TypeScript/JavaScript, Python, Go, Java, C, SQL",
+  skills: "Python, TypeScript/JavaScript, Go, Java, C, SQL",
 )
 #skill_item(
   category: "Frameworks & Libraries",
