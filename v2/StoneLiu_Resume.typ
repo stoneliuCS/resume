@@ -52,7 +52,7 @@
   role: "Chief of Software",
   name: "Generate Product Development Studio",
   location: "Boston, MA",
-  date: "June 2025 - Present",
+  date: "June 2025 - April 2026",
   [Designed and deployed a containerized autograding challenge server in Go and PostgreSQL used by *200+* candidates to complete technical challenges.],
   [Implemented GitHub Actions pipelines for deployment of React Native and containerized backend services used by *4* teams, standardizing CI/CD for *20* engineers.],
   [Integrated AWS S3, Lambda, and EC2 with least-privilege IAM policies and Boto3, enabling secure access to shared cloud infrastructure.],
