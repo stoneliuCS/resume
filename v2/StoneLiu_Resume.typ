@@ -89,7 +89,7 @@
   date: "December 2024 - April 2025",
   [Built a private family-sharing mobile app with media upload and shared home feed experiences,
     designed to keep families connected across generations.],
-  [Cached API requests using TanStack Query and compressed image/audio content through Sharp, leading to a
+  [Cached API requests using TanStack Query and compressed image/audio content through Sharp, leading to an
     *80%* decrease in API calls and *50%* faster loading times.],
   [Implemented CI/CD using GitHub Actions, automating *500+* integration tests written with Jest and
     containerized deployments.],
