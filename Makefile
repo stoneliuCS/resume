@@ -1,5 +1,10 @@
+ROOT := $(shell pwd)
+
 all:
-	 cd v2/ && typst compile StoneLiu_Resume.typ
+	typst compile --root $(ROOT) v2/StoneLiu_Resume.typ
+
+custom/%:
+	typst compile --root $(ROOT) custom/$*/StoneLiu_Resume.typ
 
 clean:
 	rm -f StoneLiu_Resume.log 
