@@ -15,7 +15,7 @@
 #resume_heading[Education]
 #edu_item(
   name: "Northeastern University",
-  degree: "Bachelor of Science in Computer Science and Mathematics, Summa Cum Laude",
+  degree: "Bachelor of Science in Computer Science and Mathematics, GPA: 3.85 (Summa Cum Laude)",
   location: "Boston, MA",
   date: "May 2026",
 )
