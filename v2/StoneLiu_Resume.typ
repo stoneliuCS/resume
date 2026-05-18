@@ -31,7 +31,7 @@
 )
 #skill_item(
   category: "Databases",
-  skills: "PostgreSQL, Elasticsearch, MongoDB, Redis",
+  skills: "PostgreSQL, MongoDB, Redis",
 )
 #skill_item(
   category: "Cloud & DevOps",
